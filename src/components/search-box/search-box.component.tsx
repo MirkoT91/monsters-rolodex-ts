@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { ChangeEventHandler } from 'react';
 import './search-box.styles.css';
 

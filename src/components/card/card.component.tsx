@@ -1,6 +1,14 @@
+import React from 'react';
+
+import { Monster } from '../../App';
+
+type CardProps = {
+    monster: Monster;
+}
+
 import './card.styles.css';
 
-const Card = ({ monster }) => {
+const Card = ({ monster }:CardProps) => {
     const { id, name, email } = monster;
 
     return (
